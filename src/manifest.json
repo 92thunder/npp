@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "N++",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.nhk.or.jp/common/aplayer/ifr.html"],
+      "js": ["content_script.js"],
+			"all_frames": true
+    }
+  ]
+}
