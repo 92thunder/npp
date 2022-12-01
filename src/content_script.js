@@ -1,4 +1,4 @@
-const SKIP_DURATION_SEC = 10
+const SKIP_DURATION_SEC = 5
 const CHANGE_VOLUME_RATE = 0.1
 
 // audio要素が読み込まれるまで遅延
